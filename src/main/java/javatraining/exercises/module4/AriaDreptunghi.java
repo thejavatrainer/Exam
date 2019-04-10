@@ -11,7 +11,7 @@ public class AriaDreptunghi {
         long area = a * b;
         return (int) area;
     };
-//testt
+//testt123
     public static void main(String[] args) {
         int x = (int) area1(5,6);
         System.out.println("area = " + x);
