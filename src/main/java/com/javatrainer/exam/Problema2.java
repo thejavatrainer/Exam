@@ -4,6 +4,7 @@ public class Problema2 {
 
 // This problem contains also class Person
 
+
     public static boolean checkNameContainsAna(Person persons[]) {
         for (Person aPerson : persons) {
             if (aPerson.name.contains("ana")) {
@@ -44,6 +45,26 @@ public class Problema2 {
         return false;
     }
 
+    public static void printTheMajorPersons(Person persons[])
+    {Person majorPersons[]= new Person[50];
+    int lenghtOfMajorPersons=0;
+        for (Person aPerson : persons) {
+            if (aPerson.age>=18)
+            {
+                majorPersons[lenghtOfMajorPersons]= new Person(aPerson.name,aPerson.age);
+                lenghtOfMajorPersons++;
+            }
+        }
+
+        for (int rangeOfPerson=0; rangeOfPerson<lenghtOfMajorPersons; rangeOfPerson++)
+        {
+            System.out.println(majorPersons[rangeOfPerson].name+" "+majorPersons[rangeOfPerson].age);
+        }
+
+
+
+        }
+
     public static void main(String args[]) {
         Person persons[] = new Person[]{new Person("Roxana", 10),
                 new Person("Geta", 22),
@@ -73,5 +94,8 @@ public class Problema2 {
         } else {
             System.out.println("e) The person is not major");
         }
+
+        System.out.println("f) The major persons from array are");
+        printTheMajorPersons(persons);
     }
 }
