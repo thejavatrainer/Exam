@@ -7,11 +7,10 @@ package javatraining.exercises.module4;
 
 public class AriaDreptunghi {
  public static long area1(int a, int b) {
-        int x = 10;
         long area = a * b;
         return (int) area;
     };
-//testt123
+
     public static void main(String[] args) {
         int x = (int) area1(5,6);
         System.out.println("area = " + x);
