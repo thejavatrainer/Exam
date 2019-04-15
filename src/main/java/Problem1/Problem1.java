@@ -5,17 +5,13 @@ package Problem1;
  */
 public class Problem1 {
 
-    private static String subSir(String list)
-    {
-        return list.substring(3,7);
-    }
+
     public static void main(String[] args) {
-        String list="Ana, Dana, Ioana,Moana";
-        System.out.println("Substring de la index 3, 4 caractere ale sirului de caracter:"+ subSir(list));
+        String names = "Ioana, Maria, Moana, Ana";
+        System.out.println("The names from the list are : " + names);
+        System.out.println("The substrings are:" + names.substring(3));
+
+
     }
+
 }
-
-
-
-
-
