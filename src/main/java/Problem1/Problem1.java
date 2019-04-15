@@ -1,4 +1,4 @@
-package Exam;
+package Problem1;
 
 /**
  * Problem1
