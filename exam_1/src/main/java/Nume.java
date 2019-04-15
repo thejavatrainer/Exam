@@ -21,18 +21,19 @@ public class Nume {
         }
         return result.toString();
     }
-    public static Nume changePrenume (Nume imput){
+
+    public static Nume changePrenume(Nume imput) {
         Nume result = imput;
-        result.prenume1=changeString(result.prenume1);
-        result.prenume2=changeString(result.prenume2);
+        result.prenume1 = changeString(result.prenume1);
+        result.prenume2 = changeString(result.prenume2);
         return result;
 
     }
 
     public static void main(String Args[]) {
-        Nume test= new Nume("Muica","Alex","Alex2" );
+        Nume test = new Nume("Muica", "Alex", "Alex2");
         changePrenume(test);
-       System.out.println(test.prenume1+" "+test.prenume2+" "+test.nume);
+        System.out.println(test.prenume1 + " " + test.prenume2 + " " + test.nume);
 
     }
 }
