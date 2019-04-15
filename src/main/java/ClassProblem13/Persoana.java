@@ -2,7 +2,7 @@ package ClassProblem13;
 
 /**
  * Scrieti si apelati o metoda care returneaza un Boolean cu valoarea true daca persoana este majora si false daca persoana este minora. Pentru persoanele minore metoda va returna stringul “Minor”.
- * Metoda primeste ca parametru un obiect de tip “Person”.
+ * Metoda primeste ca parametru un obiect de tip “Person”...
  * public class Person{
  * public Sting name;
  * public int age;

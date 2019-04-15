@@ -1,7 +1,7 @@
 package ClassProblem13;
 
 /**
- * Se da un sir de Persoane ca la exercitiul 13. Sa se numere cate persoane minore sunt in sir.
+ * Se da un sir de Persoane ca la exercitiul 13. Sa se numere cate persoane minore sunt in sir...
 
  */
 public class PersoaneMajore {

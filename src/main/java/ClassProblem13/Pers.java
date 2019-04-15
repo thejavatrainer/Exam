@@ -1,7 +1,7 @@
 package ClassProblem13;
 
 /**
- * Return persoana majora, else return "Minor" string
+ * Return persoana majora, else return "Minor" string..
  */
 public class Pers {
     public static String persoanaMajora(Persoana p) {

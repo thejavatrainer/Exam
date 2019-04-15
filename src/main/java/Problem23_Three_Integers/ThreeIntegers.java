@@ -1,7 +1,7 @@
 package Problem23_Three_Integers;
 
 /**
- * Create a class having 3 int fields
+ * Create a class having 3 int fields..
  * constructor initialize fields
  * method to calculate min and mean
  */

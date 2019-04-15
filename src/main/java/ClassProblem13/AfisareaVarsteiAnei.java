@@ -1,7 +1,7 @@
 package ClassProblem13;
 
 /**
- * Se da un sir de Persoane ca la exercitiul 13. Sa se afiseze varsta Anei. (Persoana cu numele “Ana”).
+ * Se da un sir de Persoane ca la exercitiul 13. Sa se afiseze varsta Anei. (Persoana cu numele “Ana”)...
  */
 public class AfisareaVarsteiAnei {
     public static int afisareVarstaAna(Persoana[] sir) {

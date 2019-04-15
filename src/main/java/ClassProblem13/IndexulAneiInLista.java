@@ -3,7 +3,7 @@ package ClassProblem13;
 import ClassProblem13.Persoana;
 
 /**
- * Se da un sir de Persoane ca la exercitiul 13. Sa se afiseze indexul Anei in lista. (Persoana cu numele “Ana”).
+ * Se da un sir de Persoane ca la exercitiul 13. Sa se afiseze indexul Anei in lista. (Persoana cu numele “Ana”)..
  */
 public class IndexulAneiInLista {
     public static int afisareIndexAna(Persoana[] sir) {

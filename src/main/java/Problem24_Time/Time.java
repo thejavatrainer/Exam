@@ -7,7 +7,7 @@ import java.util.Date;
  * Create a class Time with fields hour, minute, second
  * initialize constructor
  * method to convert to seconds
- * method to compare two Time values
+ * method to compare two Time values..
  */
 public class Time {
     public long hour;

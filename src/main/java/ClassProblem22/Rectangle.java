@@ -2,7 +2,7 @@ package ClassProblem22;
 
 /**
  * Create a Rectangle class with following fields width, height
- * int methods to compute area, check if rectangle is square and two rectangles are equal
+ * int methods to compute area, check if rectangle is square and two rectangles are equal.
  */
 
 public class Rectangle {
