@@ -3,7 +3,7 @@ package Problem24_Cycle;
 /**
  * Create Circle class having
  * field radius
- * methods calculate radius and perimeter.....
+ * methods calculate radius and perimeter......
  */
 public class Cycle {
     public double radius;
