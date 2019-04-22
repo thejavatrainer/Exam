@@ -23,10 +23,11 @@ public class Nume {
     public static void main(String Args[]) {
         Nume test = new Nume("Muica Alex Alex2 Gheorghe");
         String[] names=test.nume.split(" ") ;
+        String reversed = names[0];
         for (int i=1; i< names.length;i++ ) {
-            System.out.print(changeString(names[i])+" ");
+            reversed+=" "+changeString(names[i]);
         }
-        System.out.println(names[0]+" ");
+        System.out.println(reversed);
     }
 }
 

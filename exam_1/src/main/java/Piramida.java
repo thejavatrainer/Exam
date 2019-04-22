@@ -15,6 +15,6 @@ public class Piramida {
     }
     public static void main(String args[])
     {
-        printPiramida(5);
+        printPiramida(11);
     }
 }

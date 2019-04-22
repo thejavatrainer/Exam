@@ -10,7 +10,7 @@ public class Person {
     public static boolean containAna(Person[] sir) {
         boolean resut = false;
         for (int i = 0; i < sir.length; i++) {
-            if (sir[i].name.contains("Ana")) {
+            if (sir[i].name.contains("ana")) {
                 resut = true;
                 break;
             }
