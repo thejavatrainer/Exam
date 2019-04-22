@@ -3,7 +3,6 @@ import java.lang.*;
 
 public class Nume {
     String nume;
-    String names;
 
     public Nume(String nume) {
         this.nume = nume;
