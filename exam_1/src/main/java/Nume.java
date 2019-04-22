@@ -3,13 +3,10 @@ import java.lang.*;
 
 public class Nume {
     String nume;
-    String prenume1;
-    String prenume2;
+    String names;
 
-    public Nume(String nume, String prenume1, String prenume2) {
+    public Nume(String nume) {
         this.nume = nume;
-        this.prenume1 = prenume1;
-        this.prenume2 = prenume2;
     }
 
     public static String changeString(String sir) {
@@ -22,18 +19,15 @@ public class Nume {
         return result.toString();
     }
 
-    public static Nume changePrenume(Nume imput) {
-        Nume result = imput;
-        result.prenume1 = changeString(result.prenume1);
-        result.prenume2 = changeString(result.prenume2);
-        return result;
 
-    }
 
     public static void main(String Args[]) {
-        Nume test = new Nume("Muica", "Alex", "Alex2");
-        changePrenume(test);
-        System.out.println(test.prenume1 + " " + test.prenume2 + " " + test.nume);
-
+        Nume test = new Nume("Muica Alex Alex2 Gheorghe");
+        String[] names=test.nume.split(" ") ;
+        for (int i=1; i< names.length;i++ ) {
+            System.out.print(changeString(names[i])+" ");
+        }
+        System.out.println(names[0]+" ");
     }
 }
+
