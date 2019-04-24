@@ -13,6 +13,7 @@ public class Piramida {
         }
 
     }
+    //TODO: write level at the end of line
     public static void main(String args[])
     {
         printPiramida(11);

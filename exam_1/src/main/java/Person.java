@@ -68,17 +68,17 @@ public class Person {
 
     public static Person[] isMajorAll(Person[] sir) {
         int j = 0;
-        for (int i = 0; i < sir.length; i++) {
-            if (sir[i].isMajor()) {
+        for (Person aSir : sir) {
+            if (aSir.isMajor()) {
                 j++;
             }
         }
 
         Person[] result = new Person[j];
         j = 0;
-        for (int i = 0; i < sir.length; i++) {
-            if ((sir[i].isMajor())) {
-                result[j] = new Person(sir[i].name, sir[i].age);
+        for (Person aSir : sir) {
+            if ((aSir.isMajor())) {
+                result[j] = new Person(aSir.name, aSir.age);
                 j++;
             }
         }
@@ -96,7 +96,7 @@ public class Person {
         try {
             System.out.println(" Persoana cea mai tanara este " + getYoungest(sirPersoane).name + " cu varsta de " + getYoungest(sirPersoane).age);
         } catch (IllegalAccessException myException) {
-            //fa ceva .....
+            //fa ceva ..... iu
         }
 
         try {
